@@ -22,6 +22,15 @@ public class Carro {
     private @Getter @Setter Tipo tipo;
     private @Getter @Setter String preco;
 
+    public Carro(Long id, String modelo, String marca, Long ano, Long potencia, Tipo tipo, String preco) {
+        this.id = id;
+        this.modelo = modelo;
+        this.marca = marca;
+        this.ano = ano;
+        this.potencia = potencia;
+        this.tipo = tipo;
+        this.preco = preco;
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -35,3 +44,4 @@ public class Carro {
         return Objects.hashCode(id);
     }
 }
+
