@@ -53,7 +53,7 @@ public class CarController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteACarById(Long id){
+    public ResponseEntity<Void> deleteACarById(@PathVariable("id") Long id) {
         this.service.deleteById(id);
         return ResponseEntity.noContent().build();
     }

@@ -35,6 +35,15 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+			<!-- outras dependências -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>5.3.0</version> <!-- ou a versão mais recente -->
+			<scope>test</scope>
+		</dependency>
+
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -77,6 +86,15 @@
 			<artifactId>hibernate-core</artifactId>
 			<version>6.4.4.Final</version>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.24</version> <!-- Certifique-se de estar usando a versão mais recente -->
+			<scope>provided</scope>
+		</dependency>
+
+
+
 
 	</dependencies>
 
@@ -112,6 +130,7 @@
 			</plugin>
 		</plugins>
 	</build>
+
 
 	<repositories>
 		<repository>

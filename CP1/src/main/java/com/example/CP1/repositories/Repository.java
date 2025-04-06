@@ -24,6 +24,17 @@ public class Repository {
         this.dataBase.add(new Car(8L , "Tucson", "Hyundai", 2022L, 1600L, Type.HYBRID, "28000", "15 km/l"));
         this.dataBase.add(new Car(9L , "Onix", "Chevrolet", 2021L, 1000L, Type.COMBUSTION, "15000", "13 km/l"));
         this.dataBase.add(new Car(10L , "Leaf", "Nissan", 2023L, 110L, Type.ELECTRIC, "27000", "6.5 km/kWh"));
+        this.dataBase.add(new Car(11L , "Fiesta", "Ford", 2020L, 1200L, Type.COMBUSTION, "12000", "14 km/l"));
+        this.dataBase.add(new Car(12L , "X5", "BMW", 2022L, 250L, Type.HYBRID, "70000", "12 km/l"));
+        this.dataBase.add(new Car(13L , "A4", "Audi", 2021L, 1500L, Type.COMBUSTION, "50000", "10 km/l"));
+        this.dataBase.add(new Car(14L , "Leaf", "Nissan", 2022L, 200L, Type.ELECTRIC, "35000", "7 km/kWh"));
+        this.dataBase.add(new Car(15L , "Camry", "Toyota", 2023L, 1700L, Type.HYBRID, "33000", "16 km/l"));
+        this.dataBase.add(new Car(16L , "Renegade", "Jeep", 2021L, 2200L, Type.COMBUSTION, "35000", "11 km/l"));
+        this.dataBase.add(new Car(17L , "Porsche 911", "Porsche", 2020L, 4000L, Type.COMBUSTION, "120000", "8 km/l"));
+        this.dataBase.add(new Car(18L , "Outlander", "Mitsubishi", 2023L, 1300L, Type.HYBRID, "40000", "14 km/l"));
+        this.dataBase.add(new Car(19L , "EQB", "Mercedes-Benz", 2024L, 300L, Type.ELECTRIC, "85000", "5.2 km/kWh"));
+        this.dataBase.add(new Car(20L , "Kona", "Hyundai", 2022L, 1800L, Type.HYBRID, "28000", "17 km/l"));
+
     }
 
     public List<Car> getAll(){
